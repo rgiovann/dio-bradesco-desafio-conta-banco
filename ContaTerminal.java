@@ -1,3 +1,30 @@
+/**
+ * A classe {@code ContaTerminal} simula o processo de criação de uma conta bancária.
+ * 
+ * O programa solicita ao usuário informações sobre a conta bancária, como:
+ * - Número da conta
+ * - Número da agência
+ * - Nome do cliente
+ * - Saldo da conta
+ * 
+ * O programa valida a entrada do usuário para garantir que os dados inseridos são válidos, 
+ * e exibe uma mensagem formatada com as informações fornecidas.
+ * 
+ * Exemplo de saída formatada:
+ * <pre>
+ * Olá <nome do cliente>, obrigado por criar uma conta em nosso banco, 
+ * sua agência é <número da agência>, conta <número da conta> 
+ * e seu saldo <valor do saldo formatado> já está disponível para saque.
+ * </pre>
+ * 
+ * <p>A classe faz uso do {@link java.util.Scanner} para capturar a entrada do usuário e 
+ * do {@link java.text.NumberFormat} para formatar o saldo como moeda.</p>
+ * 
+ * @author Giovanni Rozza
+ * @version 1.0
+ * @since 2025-02-20
+ */
+
 import java.text.NumberFormat;
 import java.util.InputMismatchException;
 import java.util.Scanner;
